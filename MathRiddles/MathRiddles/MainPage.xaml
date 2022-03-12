@@ -24,7 +24,7 @@
         <Button Text="Click Me" Clicked="Handle_Clicked" />
 
         <Label Text="Start developing now" FontSize="Title" Padding="30,10,30,10" />
-        <!--More Labels here -->
+        <!--More Labels here test -->
     </StackLayout>
 
 </ContentPage>
