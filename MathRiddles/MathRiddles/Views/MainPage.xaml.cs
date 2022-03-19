@@ -16,10 +16,15 @@ namespace MathRiddles
             InitializeComponent();
         }
         int count = 0;
+
         void Handle_Clicked(object sender, System.EventArgs e)
         {
             count++;
             ((Button)sender).Text = $"You clicked {count} times.";
+            if (entry.Text == "10")
+            {
+                output.Text = "You Win";
+            }
         }
     }
 }
